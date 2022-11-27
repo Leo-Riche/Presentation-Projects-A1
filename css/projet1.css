@@ -1,0 +1,51 @@
+.projet1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 25vh;
+    background-color: #212429;
+}
+
+.image-heroic-fantasy {
+    margin: 30px;
+    background-color: #212429;
+}
+
+.text1 {
+    padding-top: 20vh;
+    font-size: 24px;
+    background-color: #212429;
+    color: whitesmoke;
+    opacity: 0%;
+}
+
+.text1:hover {
+    animation-name: entree;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+
+@keyframes entree{
+    0%{
+        transform: translateX(100px);
+        opacity: 0%;
+    }
+
+    100%{
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+
+button {
+    padding: 3%;
+    font-size: 24px;
+    background-color: orange;
+    border-color: rgba(255, 166, 0, 0);
+}
+
+a {    
+    color: whitesmoke;
+}

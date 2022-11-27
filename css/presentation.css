@@ -1,0 +1,52 @@
+.presentation {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    background-color: rgba(33, 33, 33);
+    font-size: 28px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.841);
+}
+
+.blocpresentation {
+    display: flex;
+}
+
+.photoprofil {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    padding-right: 0px;
+    margin-bottom: 50px;
+}
+
+.description {
+    margin-left: 3vw;
+    margin-top: 28vh;
+    margin-right: 24vw;
+    font-size: 24px;
+}
+
+.description p{
+    display: flex;
+    animation-name: description;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes description{
+    0%{
+        color: whitesmoke;
+    }
+
+    100%{
+        color: orange;
+    }
+}
